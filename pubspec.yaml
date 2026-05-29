@@ -1,0 +1,77 @@
+name: flutter_app_design
+description: Premium shopping app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  shared_preferences: ^2.5.5
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1   # 🔥 App icon package
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/app_icon.png
+    - assets/logo.png
+    - assets/images/items/Beige_Jacket/
+    - assets/images/items/Black_Formal_Suit/
+    - assets/images/items/Black_Hoodie/
+    - assets/images/items/Black_T_Shirt/
+    - assets/images/items/Blue_Denim_Jacket/
+    - assets/images/items/Brown_Formal_Shoes/
+    - assets/images/items/Brown_Leather_Jacket/
+    - assets/images/items/Casual_Shorts/
+    - assets/images/items/Casual_Sneakers/
+    - assets/images/items/Checked_Shirt/
+    - assets/images/items/Digital_Watch/
+    - assets/images/items/Formal_Trousers/
+    - assets/images/items/Grey_Hoodie/
+    - assets/images/items/Linen_Shirt/
+    - assets/images/items/Luxury_Watch/
+    - assets/images/items/Navy_Blue_Shirt/
+    - assets/images/items/Olive_Green_Jacket/
+    - assets/images/items/Oversized_Hoodie/
+    - assets/images/items/Printed_T_Shirt/
+    - assets/images/items/Running_Shoes/
+    - assets/images/items/Slim_Fit_Jeans/
+    - assets/images/items/Smart_Wrist_Watch/
+    - assets/images/items/Sports_T_Shirt/
+    - assets/images/items/White_Casual_Shirt/
+    - assets/images/items/Winter_Jacket/
+    - assets/images/items/brown_stylish_high_boots/
+    - assets/images/items/cargo_pants/
+    - assets/images/items/golden_watch/
+    - assets/images/items/gold_high_shoes/
+    - assets/images/items/olives_watch/
+    - assets/images/items/oversize_style_t_shirt/
+    - assets/images/items/oversize_t_shirt/
+    - assets/images/items/polo_black_t_shirt/
+    - assets/images/items/polo_t_shirt/
+    - assets/images/items/striped_shirt/
+    - assets/images/items/striped_t_shirt/
+    - assets/images/items/zip_hoodie/
+
+# 🔥 App Icon Config
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/app_icon.png"

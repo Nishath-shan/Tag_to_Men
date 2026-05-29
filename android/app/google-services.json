@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737319691033",
+    "project_id": "tag-to-men",
+    "storage_bucket": "tag-to-men.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737319691033:android:5dd9e1c959ff6e20d4db88",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app_design"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH_2wqYzmkeM1DDeSmSJ3-Kfx28r4zALg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
